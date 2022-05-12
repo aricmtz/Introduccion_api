@@ -1,0 +1,26 @@
+{
+  "name": "proyectexpress",
+  "version": "1.0.0",
+  "description": "Uso de express con una base de datos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aricmtz/Introduccion_api.git"
+  },
+  "keywords": [
+    "express",
+    "api"
+  ],
+  "author": "Alejandro Ariceaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aricmtz/Introduccion_api/issues"
+  },
+  "homepage": "https://github.com/aricmtz/Introduccion_api#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
