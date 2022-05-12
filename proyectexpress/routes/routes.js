@@ -23,4 +23,29 @@ app.get('/users', (request,response) => {
 
     });
 
-});}
+});
+
+
+
+//Mostrar un solo usuario ID
+
+
+
+app.get('users/:id',(request,response) =>{
+
+    const id = request.paramas.id;
+
+
+
+    pool.query('SELECT * FROM user WHERE id=?', id, (error,result)=>{
+
+        if (error) throw error;
+
+        response.send(result)
+
+    });
+
+});
+
+
+}
